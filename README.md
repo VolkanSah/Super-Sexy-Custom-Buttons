@@ -1,8 +1,7 @@
 # Super Sexy Custom Buttons (for WordpRESS9
 
 **Version:** 1.0  
-**Author:** vOLKAN sAH
-**Description:** You love bling bling? You get bling bling! 💎✨
+You love bling bling? You get bling bling! 💎✨
 
 ## What is This?
 
