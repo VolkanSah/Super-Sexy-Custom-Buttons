@@ -1,19 +1,19 @@
 # Super Sexy Custom Buttons
+### You need bling bling? You get bling bling! 💎✨
 
-**Version:** 1.0  
-**Author:** Your Name  
-**Description:** You love bling bling? You get bling bling! 💎✨
+
 
 ## What is This?
 
-Are you tired of boring, flat buttons? Do you yearn for that extra sparkle in your life? Well, you’ve come to the right place! The **Super Sexy Custom Buttons** plugin lets you create the most dazzling, jaw-dropping buttons your WordPress site has ever seen. Say goodbye to the dull and drab, and hello to the fabulously flashy! 💅
+Are you tired of boring, flat buttons? Do you yearn for that extra sparkle in your life? Well, you’ve come to the right place! The **Super Sexy Custom Buttons** plugin takes your most important buttons—the ones your visitors can't miss—and gives them the bling-bling treatment they deserve. Say goodbye to the dull and drab, and hello to the fabulously flashy! 💅
 
 ## Features
 
 - **Custom Background Colors:** Choose your button background color, and yes, we mean any color. From bling-tastic gold to icy silver, with full transparency control (because sometimes you want a little mystery).
-- **Border Radius Control:** Perfect those corners with our smooth slider, from sharp 0px to luscious 50px. 
+- **Border Radius Control:** Perfect those corners with our smooth slider, from sharp 0px to luscious 50px.
 - **Automatic `!important` CSS:** Don’t worry about pesky themes or other plugins trying to dull your sparkle. We’ve got your back with some serious `!important` magic. Your buttons will outshine anything else on the page!
 - **Super Sexy Hover Effect:** Watch as your buttons gently rise and shine when hovered over. That’s right, your buttons don’t just sit there—they make an entrance! Smooth, sexy, and oh-so-stylish.
+- **Targeted Bling:** This plugin specifically targets your "Continue Reading" links and the all-important "Post Comment" and "Reply" buttons. These are the buttons that matter most, and now they’ll look better than ever!
 - **Real-time Preview:** Watch your buttons transform in real-time within the WordPress Customizer. No more guesswork—only pure, unfiltered glamour.
 
 ## Installation
@@ -24,9 +24,9 @@ Are you tired of boring, flat buttons? Do you yearn for that extra sparkle in yo
 
 ## How to Use
 
-1. **Choose Your Bling:** Head over to the Customizer and pick your favorite colors. 
+1. **Choose Your Bling:** Head over to the Customizer and pick your favorite colors.
 2. **Round or Square?:** Use the Border Radius slider to get those corners just right.
-3. **Hover for the Magic:** Hover over your buttons to see them rise with that smooth, sexy Bling-Bling™ effect. It’s like they know they’re hot!
+3. **Hover for the Magic:** Hover over your "Continue Reading", "Post Comment", or "Reply" buttons to see them rise with that smooth, sexy Bling-Bling™ effect. It’s like they know they’re hot!
 4. **Go Live:** Once you’re satisfied with your customizations, hit publish and let the world see your shiny new buttons!
 
 ## Warning: May Cause Envy
@@ -35,11 +35,11 @@ Our `!important` CSS means your buttons will always stay true to your vision, no
 
 ## FAQ
 
-**Q: Will my buttons really stand out?**  
-A: Darling, your buttons will be the star of the show. ✨
+**Q: Which buttons does this plugin style?**  
+A: Only the most important ones! Specifically, your "Continue Reading" links, and the "Post Comment" and "Reply" buttons in your comment sections. Because they deserve to shine. ✨
 
-**Q: Can I use this for every button on my site?**  
-A: Absolutely! Just apply the `.fancy-button` class wherever you need that extra sparkle.
+**Q: Can I use this for other buttons?**  
+A: The plugin is designed to focus on those key buttons, but if you’re feeling adventurous, you can always add the `.fancy-button` class to any other button you want to glam up.
 
 **Q: What if my theme tries to override the styles?**  
 A: Don’t worry, we’ve already sprinkled some `!important` on that. Nothing’s going to dull your shine.
