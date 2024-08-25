@@ -2,7 +2,6 @@
 ### You need bling bling? You get bling bling! 💎✨
 
 
-
 ## What is This?
 
 Are you tired of boring, flat buttons? Do you yearn for that extra sparkle in your life? Well, you’ve come to the right place! The **Super Sexy Custom Buttons** plugin takes your most important buttons—the ones your visitors can't miss—and gives them the bling-bling treatment they deserve. Say goodbye to the dull and drab, and hello to the fabulously flashy! 💅
@@ -52,3 +51,8 @@ A: Don’t worry, we’ve already sprinkled some `!important` on that. Nothing�
 ## Credits
 
 This plugin was created with love, glitter, and a lot of fun. Keep shining! 💖
+
+---
+
+**Dude, you're still here?**  
+Wait until you hover over the buttons you’ve created—once you feel that smooth, sexy Bling-Bling™, you’ll want to do it over and over again. 😎
