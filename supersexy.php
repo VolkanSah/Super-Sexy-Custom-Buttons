@@ -1,9 +1,14 @@
 <?php
 /*
 Plugin Name: Super Sexy Custom Buttons
-Description: You love bling bling, you get bling bling :D
+Plugin URI: https://yourwebsite.com/super-sexy-custom-buttons
+Description: Bring the bling to your WordPress site with Super Sexy Custom Buttons! Customize button colors, border radius, and enjoy smooth, sexy hover effects that make your buttons pop. Perfect for adding that extra sparkle and shine to any site. 💎✨
 Version: 1.0
-Author: Your Name
+Author: Volkan Sah
+Author URI: https://yourwebsite.com
+License: GPL2
+Text Domain: sscb-plugin
+Tags: buttons, custom buttons, bling, hover effects, WordPress customizer
 */
 
 // Customizer-Einstellungen registrieren
@@ -73,24 +78,52 @@ function sscb_sanitize_rgba($color) {
 function sscb_custom_button_css() {
     ?>
     <style type="text/css">
-        .fancy-button {
-            background-color: <?php echo get_theme_mod('sscb_button_background_color', 'rgba(255, 215, 0, 1)'); ?> !important;
-            border-radius: <?php echo get_theme_mod('sscb_button_border_radius', '9'); ?>px !important;
-            color: #ffffff !important;
+        /* Fancy Continue Reading Button */
+        a.more-link {
+            display: inline-block;
             padding: 10px 20px !important;
+            background-color: <?php echo get_theme_mod('sscb_button_background_color', 'rgba(255, 215, 0, 1)'); ?> !important;
+            color: #ffffff !important;
+            font-size: 16px !important;
             font-weight: bold !important;
             text-transform: uppercase !important;
             letter-spacing: 1px !important;
+            text-decoration: none !important;
+            border-radius: <?php echo get_theme_mod('sscb_button_border_radius', '9'); ?>px !important;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
             transition: all 0.3s ease !important;
-            border: none !important;
-            cursor: pointer !important;
         }
 
-        .fancy-button:hover {
-            background-color: <?php echo get_theme_mod('sscb_button_background_color', 'rgba(255, 215, 0, 1)'); ?> !important;
+        a.more-link:hover {
+            background-color: #e55a4f !important; /* Hintergrundfarbe bei Hover */
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important;
-            transform: translateY(-3px) !important;
+            transform: translateY(-3px) !important; /* Leichte Bewegung nach oben bei Hover */
+        }
+
+        /* Fancy Comment and Reply Buttons */
+        #submit,
+        .comment-reply-link {
+            display: inline-block;
+            padding: 10px 20px !important;
+            background-color: <?php echo get_theme_mod('sscb_button_background_color', 'rgba(255, 215, 0, 1)'); ?> !important;
+            color: #ffffff !important;
+            font-size: 16px !important;
+            font-weight: bold !important;
+            text-transform: uppercase !important;
+            letter-spacing: 1px !important;
+            text-decoration: none !important;
+            border-radius: <?php echo get_theme_mod('sscb_button_border_radius', '9'); ?>px !important;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+            transition: all 0.3s ease !important;
+            border: none !important; /* Entfernt Standardrahmen */
+            cursor: pointer !important; /* Handcursor beim Hover */
+        }
+
+        #submit:hover,
+        .comment-reply-link:hover {
+            background-color: #e55a4f !important; /* Hintergrundfarbe bei Hover */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important;
+            transform: translateY(-3px) !important; /* Leichte Bewegung nach oben bei Hover */
         }
     </style>
     <?php
