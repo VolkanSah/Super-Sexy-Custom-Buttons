@@ -3,7 +3,7 @@
 Plugin Name: Super Sexy Custom Buttons
 Description: You love bling bling, you get bling bling :D
 Version: 1.0
-Author: Dein Name
+Author: Your Name
 */
 
 // Customizer-Einstellungen registrieren
@@ -17,7 +17,7 @@ function sscb_register_customizer_settings($wp_customize) {
 
     // Hintergrundfarbe mit Transparenz hinzufügen
     $wp_customize->add_setting('sscb_button_background_color', array(
-        'default' => 'rgba(255, 111, 97, 1)',
+        'default' => 'rgba(255, 215, 0, 1)', // Dein Bling-Bling-Gold
         'sanitize_callback' => 'sscb_sanitize_rgba',
     ));
 
@@ -56,7 +56,7 @@ add_action('customize_register', 'sscb_register_customizer_settings');
 // RGBA-Farbe sanitieren
 function sscb_sanitize_rgba($color) {
     if (empty($color) || is_array($color)) {
-        return 'rgba(255, 111, 97, 1)';
+        return 'rgba(255, 215, 0, 1)';
     }
 
     // Überprüfen, ob die Eingabe ein gültiges RGBA-Format hat
@@ -69,13 +69,28 @@ function sscb_sanitize_rgba($color) {
     return 'rgba(' . $red . ',' . $green . ',' . $blue . ',' . $alpha . ')';
 }
 
-// CSS in den Header einfügen
+// CSS in den Header einfügen mit !important-Regeln
 function sscb_custom_button_css() {
     ?>
     <style type="text/css">
         .fancy-button {
-            background-color: <?php echo get_theme_mod('sscb_button_background_color', 'rgba(255, 111, 97, 1)'); ?>;
-            border-radius: <?php echo get_theme_mod('sscb_button_border_radius', '9'); ?>px;
+            background-color: <?php echo get_theme_mod('sscb_button_background_color', 'rgba(255, 215, 0, 1)'); ?> !important;
+            border-radius: <?php echo get_theme_mod('sscb_button_border_radius', '9'); ?>px !important;
+            color: #ffffff !important;
+            padding: 10px 20px !important;
+            font-weight: bold !important;
+            text-transform: uppercase !important;
+            letter-spacing: 1px !important;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+            transition: all 0.3s ease !important;
+            border: none !important;
+            cursor: pointer !important;
+        }
+
+        .fancy-button:hover {
+            background-color: <?php echo get_theme_mod('sscb_button_background_color', 'rgba(255, 215, 0, 1)'); ?> !important;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important;
+            transform: translateY(-3px) !important;
         }
     </style>
     <?php
