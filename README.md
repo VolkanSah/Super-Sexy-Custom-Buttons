@@ -1,7 +1,8 @@
-# Super Sexy Custom Buttons (for WordpRESS9
+# Super Sexy Custom Buttons
 
 **Version:** 1.0  
-You love bling bling? You get bling bling! 💎✨
+**Author:** Your Name  
+**Description:** You love bling bling? You get bling bling! 💎✨
 
 ## What is This?
 
@@ -12,6 +13,7 @@ Are you tired of boring, flat buttons? Do you yearn for that extra sparkle in yo
 - **Custom Background Colors:** Choose your button background color, and yes, we mean any color. From bling-tastic gold to icy silver, with full transparency control (because sometimes you want a little mystery).
 - **Border Radius Control:** Perfect those corners with our smooth slider, from sharp 0px to luscious 50px. 
 - **Automatic `!important` CSS:** Don’t worry about pesky themes or other plugins trying to dull your sparkle. We’ve got your back with some serious `!important` magic. Your buttons will outshine anything else on the page!
+- **Super Sexy Hover Effect:** Watch as your buttons gently rise and shine when hovered over. That’s right, your buttons don’t just sit there—they make an entrance! Smooth, sexy, and oh-so-stylish.
 - **Real-time Preview:** Watch your buttons transform in real-time within the WordPress Customizer. No more guesswork—only pure, unfiltered glamour.
 
 ## Installation
@@ -24,7 +26,8 @@ Are you tired of boring, flat buttons? Do you yearn for that extra sparkle in yo
 
 1. **Choose Your Bling:** Head over to the Customizer and pick your favorite colors. 
 2. **Round or Square?:** Use the Border Radius slider to get those corners just right.
-3. **Go Live:** Once you’re satisfied with your customizations, hit publish and let the world see your shiny new buttons!
+3. **Hover for the Magic:** Hover over your buttons to see them rise with that smooth, sexy Bling-Bling™ effect. It’s like they know they’re hot!
+4. **Go Live:** Once you’re satisfied with your customizations, hit publish and let the world see your shiny new buttons!
 
 ## Warning: May Cause Envy
 
