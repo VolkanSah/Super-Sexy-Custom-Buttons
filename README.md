@@ -68,3 +68,6 @@ This plugin was created with love, glitter, and a lot of fun. Keep shining! 💖
 
 **Dude, you're still here?**  
 Wait until you hover over the buttons you’ve created—once you feel that smooth, sexy Bling-Bling™, you’ll want to do it over and over again. 😎
+
+## Screenshot
+![Screenshot](screenshot_0.png)
