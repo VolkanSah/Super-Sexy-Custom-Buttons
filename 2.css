@@ -1,0 +1,298 @@
+/* Table of Contents:
+1. Fancy Continue Reading Button
+2. Fancy Comment and Reply Buttons
+3. Single Post Title
+4. AI Power Plugin Custom Styles
+5. Checkboxen und Radio-Buttons
+6. Responsive Media Queries
+*/
+
+/* 1. Fancy Continue Reading Button */
+a.more-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61; /* Hintergrundfarbe des Buttons */
+    color: #ffffff; /* Textfarbe */
+    font-size: 16px; /* Schriftgröße */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 9px; /* Runde Ecken */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Schatten */
+    transition: all 0.3s ease;
+}
+
+a.more-link:hover {
+    background-color: #e55a4f; /* Hintergrundfarbe bei Hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Stärkerer Schatten bei Hover */
+    transform: translateY(-3px); /* Leichte Bewegung nach oben bei Hover */
+}
+
+/* 2. Fancy Comment and Reply Buttons */
+#submit,
+.comment-reply-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61 !important; /* Hintergrundfarbe */
+    color: #ffffff !important; /* Textfarbe */
+    font-size: 16px !important; /* Schriftgröße */
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    text-decoration: none !important;
+    border-radius: 9px !important; /* Runde Ecken */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important; /* Schatten */
+    transition: all 0.3s ease !important;
+    border: none !important; /* Entfernt Standardrahmen */
+    cursor: pointer !important; /* Handcursor beim Hover */
+}
+
+#submit:hover,
+.comment-reply-link:hover {
+    background-color: #e55a4f !important; /* Hintergrundfarbe bei Hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important; /* Stärkerer Schatten bei Hover */
+    transform: translateY(-3px) !important; /* Leichte Bewegung nach oben bei Hover */
+}
+
+/* 3. Single Post Title */
+.single-post h1.entry-title {
+    font-size: 2.5rem;
+}
+
+/* 4. AI Power Plugin Custom Styles */
+
+/* Hintergrundfarbe und Layouts für generierte Ausgaben */
+.wpaicg-prompt-result {
+    background-color: #f9f9f9; /* Leicht gräulicher Hintergrund */
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Größe und Stil für den Generate-Button */
+.wpaicg-button.wpaicg-generate-button {
+    width: 100% !important;
+    max-width: 200px !important; /* Maximale Breite */
+    height: 50px !important; /* Einheitliche Höhe */
+    text-align: center !important;
+    line-height: 30px !important; /* Vertikale Zentrierung des Textes */
+    margin: 10px 0 !important; /* Abstand zu anderen Elementen */
+    box-sizing: border-box !important; /* Berücksichtigt Padding und Border in der Breite */
+}
+
+/* Stil für Input-Felder und Textbereiche */
+.wpaicg-form-field input[type="text"],
+.wpaicg-form-field select,
+.wpaicg-form-field input[type="number"],
+.wpaicg-form-field input[type="email"],
+.wpaicg-form-field input[type="url"],
+.wpaicg-form-field textarea {
+    width: 100% !important;
+    padding: 10px 15px !important; /* Padding für gleichmäßige Abstände */
+    font-size: 14px !important; /* Einheitliche Schriftgröße */
+    border: 1px solid #ccc !important; /* Rahmenfarbe */
+    border-radius: 6px !important; /* Runde Ecken */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1) !important; /* Leichter innerer Schatten */
+    transition: border-color 0.3s ease !important;
+    box-sizing: border-box !important; /* Box-Sizing für bessere Kontrolle */
+    flex-grow: 1 !important; /* Stellt sicher, dass die Felder die verfügbare Breite nutzen */
+}
+
+/* Fokus-Effekte für Inputs und Dropdowns */
+.wpaicg-form-field input[type="text"]:focus,
+.wpaicg-form-field select:focus,
+.wpaicg-form-field input[type="number"]:focus,
+.wpaicg-form-field input[type="email"]:focus,
+.wpaicg-form-field input[type="url"]:focus,
+.wpaicg-form-field textarea:focus {
+    border-color: #ff6f61 !important; /* Rahmenfarbe bei Fokus */
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.5) !important; /* Äußerer Schein bei Fokus */
+    outline: none !important;
+}
+
+/* Stil für Labels */
+.wpaicg-form-field label {
+    display: block !important;
+    margin-bottom: 5px !important;
+    font-size: 14px !important; /* Kleinere Schriftgröße für Labels */
+    font-weight: bold !important;
+    color: #333 !important; /* Dunkle Textfarbe */
+}
+
+/* Layout-Anpassung für Form-Felder */
+.wpaicg-form-field {
+    margin-bottom: 20px !important; /* Abstand zwischen den Form-Feldern */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Flex-Container für Ausrichtung */
+.wpaicg-prompt-flex-center {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important; /* Element bricht bei kleiner Breite um */
+}
+
+/* Einheitlicher Stil für Buttons */
+.wpaicg-button {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    background-color: #ff6f61 !important; /* Hintergrundfarbe */
+    color: #ffffff !important; /* Textfarbe */
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    text-decoration: none !important;
+    border-radius: 9px !important; /* Runde Ecken */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important; /* Schatten */
+    transition: all 0.3s ease !important;
+    border: none !important; /* Entfernt Standardrahmen */
+    cursor: pointer !important; /* Handcursor beim Hover */
+    width: 100% !important;
+    max-width: 200px !important;
+    height: 50px !important; /* Einheitliche Höhe */
+    text-align: center !important;
+    line-height: 30px !important; /* Vertikale Zentrierung des Textes */
+    margin: 10px 0 !important; /* Abstand zu anderen Elementen */
+    box-sizing: border-box !important; /* Berücksichtigt Padding und Border in der Breite */
+}
+
+.wpaicg-button:hover {
+    background-color: #e55a4f !important; /* Hintergrundfarbe bei Hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important; /* Stärkerer Schatten bei Hover */
+    transform: translateY(-3px) !important; /* Leichte Bewegung nach oben bei Hover */
+}
+
+/* Modale Anpassungen */
+.wpaicg_feedbackModal-content {
+    background: #fff;
+    padding: 3vw;
+    border-radius: 16px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+#wpaicg_feedbackModal h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#wpaicg_feedbackModal textarea {
+    width: calc(100% - 3%); /* Adjust width considering the added padding */
+    padding: 1.5%; /* Internal padding */
+    margin-bottom: 1.5%; /* Spacing below the textarea */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05) inset;
+}
+
+.wpaicg_button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+#wpaicg_feedbackModal button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+#wpaicg_feedbackModal button:hover {
+    transform: translateY(-2px);
+}
+
+#wpaicg_feedbackModal #wpaicg_submitFeedback {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#wpaicg_feedbackModal #wpaicg_submitFeedback:hover {
+    background-color: #0056b3;
+}
+
+#wpaicg_feedbackModal #closeFeedbackModal {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+#wpaicg_feedbackModal #closeFeedbackModal:hover {
+    background-color: #c4c4c4;
+}
+
+.wpaicg_feedbackModal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);  /* semi-transparent black */
+    z-index: 9998;  /* one less than the modal to ensure it's below */
+    display: none;  /* hidden by default */
+    max-width: none !important;
+    margin: 0 !important;
+}
+
+/* 5. Checkboxen und Radio-Buttons */
+.wpaicg-form-field input[type="checkbox"],
+.wpaicg-form-field input[type="radio"] {
+    width: 18px !important; /* Kleinere Größe der Checkboxen und Radio-Buttons */
+    height: 18px !important;
+    margin-right: 10px !important; /* Abstand zwischen Checkbox/Radio und dem Label-Text */
+    vertical-align: middle !important; /* Vertikale Ausrichtung mittig */
+}
+
+/* Stil für Checkbox- und Radio-Labels */
+.wpaicg-form-field label {
+    font-size: 16px !important; /* Größere Schriftgröße für Labels */
+    line-height: 1.5 !important; /* Höhere Zeilenhöhe für mehr Abstand */
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 8px !important; /* Etwas Abstand zum nächsten Element */
+}
+
+.wpaicg-form-field .wpaicg-form-field-6 label, /* Spezifisch für Checkbox-Labels */
+.wpaicg-form-field .wpaicg-form-field-7 label { /* Spezifisch für Radio-Labels */
+    font-weight: normal !important; /* Normales Schriftgewicht für Klarheit */
+    font-size: 16px !important; /* Größere Schriftgröße für bessere Lesbarkeit */
+}
+
+/* Abstand und Zentrierung der Checkbox- und Radio-Gruppen */
+.wpaicg-form-field .wpaicg-form-field-6, /* Gruppe der Checkboxen */
+.wpaicg-form-field .wpaicg-form-field-7 { /* Gruppe der Radio-Buttons */
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 15px !important; /* Abstand zwischen den einzelnen Checkboxen/Radio-Buttons */
+}
+
+/* 6. Responsive Media Queries */
+@media screen and (max-width: 768px) {
+    #wpaicg_feedbackModal h3 {
+        font-size: 20px; /* Reduce font size for smaller screens */
+        margin-bottom: 15px;
+    }
+    #wpaicg_feedbackModal textarea {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    .wpaicg_button-group {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+        gap: 10px;
+    }
+    #wpaicg_feedbackModal button {
+        width: 100%; /* Full-width buttons on small screens */
+    }
+}
