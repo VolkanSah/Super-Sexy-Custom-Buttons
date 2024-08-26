@@ -1,7 +1,7 @@
 
-# Super Sexy Custom Buttons
+# Super Sexy Custom Buttons (WP)
 ### You need bling bling? You get bling bling! 💎✨
-###### WordPress Plugins by Volkan Sah
+
 
 
 ## What is This?
