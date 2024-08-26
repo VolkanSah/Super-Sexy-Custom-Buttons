@@ -1,5 +1,6 @@
 
 # Super Sexy Custom Buttons
+###### WordPress Plugins by Volkan Sah
 ### You need bling bling? You get bling bling! 💎✨
 
 
@@ -71,3 +72,9 @@ Wait until you hover over the buttons you’ve created—once you feel that smoo
 
 ## Screenshot
 ![Screenshot](screenshot_0.png)
+
+## Copyright 
+**Volkan Kücükbudak**
+
+### Note
+You can use this Plugin for free for commercial and private use (no sell or resell-rights!). A :star: would be cool, or write about the plugin on your now sexy site. 💖
