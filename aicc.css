@@ -1,0 +1,52 @@
+/* Fancy Continue Reading Button */
+a.more-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61; /* Hintergrundfarbe des Buttons */
+    color: #ffffff; /* Textfarbe */
+    font-size: 16px; /* Schriftgröße */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 9px; /* Runde Ecken */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Schatten */
+    transition: all 0.3s ease;
+}
+
+a.more-link:hover {
+    background-color: #e55a4f; /* Hintergrundfarbe bei Hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Stärkerer Schatten bei Hover */
+    transform: translateY(-3px); /* Leichte Bewegung nach oben bei Hover */
+}
+
+/* Fancy Comment and Reply Buttons */
+#submit,
+.comment-reply-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61 !important; /* Hintergrundfarbe */
+    color: #ffffff !important; /* Textfarbe */
+    font-size: 16px !important; /* Schriftgröße */
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    text-decoration: none !important;
+    border-radius: 9px !important; /* Runde Ecken */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important; /* Schatten */
+    transition: all 0.3s ease !important;
+    border: none !important; /* Entfernt Standardrahmen */
+    cursor: pointer !important; /* Handcursor beim Hover */
+}
+
+#submit:hover,
+.comment-reply-link:hover {
+    background-color: #e55a4f !important; /* Hintergrundfarbe bei Hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important; /* Stärkerer Schatten bei Hover */
+    transform: translateY(-3px) !important; /* Leichte Bewegung nach oben bei Hover */
+}
+
+  .single-post h1.entry-title {
+    font-size: 2.5rem;
+  }
+}
