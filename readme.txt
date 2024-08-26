@@ -43,7 +43,7 @@ Don’t worry, we’ve already sprinkled some `!important` on that. Nothing’s 
 
 == Screenshots ==
 
-1. screenshot_1.png - The WordPress Customizer interface with the Super Sexy Custom Buttons settings.
+1. screenshot_0.png - The WordPress Customizer interface with the Super Sexy Custom Buttons settings.
 
 == Changelog ==
 
