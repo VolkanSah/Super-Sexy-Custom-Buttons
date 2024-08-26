@@ -5,8 +5,8 @@ Plugin URI: https://yourwebsite.com/super-sexy-custom-buttons
 Description: Bring the bling to your WordPress site with Super Sexy Custom Buttons! Customize button colors, border radius, and enjoy smooth, sexy hover effects that make your buttons pop. Perfect for adding that extra sparkle and shine to any site. 💎✨
 Version: 1.1
 Author: Volkan Sah
-Author URI: https://yourwebsite.com
-License: GPL2
+Author URI: https://github.com/VolkanSah/
+License: GPL3
 Text Domain: sscb-plugin
 Tags: buttons, custom buttons, bling, hover effects, WordPress customizer
 */
