@@ -1,6 +1,8 @@
 
 # Super Sexy Custom Buttons (WP)
 ### You need bling bling? You get bling bling! 💎✨
+![Version](https://img.shields.io/badge/version-1.0-orange.svg)
+![WordPress](https://img.shields.io/badge/WordPress-Compatible-blue.svg)
 
 
 
