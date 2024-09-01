@@ -1,12 +1,12 @@
 
 # Super Sexy Custom Buttons (WP)
-### You need bling bling? You get bling bling! 💎✨
-
 ![WordPress](https://img.shields.io/badge/WordPress-Compatible-blue.svg)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white)
 ![Version](https://img.shields.io/badge/version-1.0-orange.svg)
 [![Stars](https://img.shields.io/github/stars/VolkanSah/Super-Sexy-Custom-Buttons)](https://github.com/VolkanSah/Super-Sexy-Custom-Buttons/) 
 ![Forks](https://img.shields.io/github/forks/VolkanSah/Super-Sexy-Custom-Buttons)
+
+## You need bling bling? You get bling bling? 💎✨
 
 
 
